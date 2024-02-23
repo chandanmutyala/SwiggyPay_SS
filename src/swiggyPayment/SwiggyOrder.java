@@ -5,7 +5,7 @@ public abstract class SwiggyOrder implements SwiggyInterface{
     private int eggFideRice=250;
     private int chickenBiryani=500;
     public int totalCost;
-
+    int localMerchantId=1234;
     public int OrderItems(OrderItems orderItems){
 
         totalCost = orderItems.getEggNoodles()*eggNoodles+
